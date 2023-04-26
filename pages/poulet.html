@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/all.min.css">
+   <link rel="stylesheet" href="../CSS/poulet.css">
+    <title>Document</title>
+</head>
+<body>
+  
+    
+  <nav class="navbar navbar-expand-lg bg-ligth"  style="z-index: 10000;">
+    <div class="container-fluid">
+      <a class="navbar-brand cameroon" href="../index.html">
+        
+       <h1><i class="fa-solid fa-utensils text-secondary"></i>CamerResto</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header text-dark">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CamerResto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link px-4 text-dark" href="../index.html" style="color: white;">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="../index.html#encre0">Plats</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="../index.html#encre1">pourquoi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="../index.html#encre2">Menus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active px-4 gray" aria-current="page" href="../index.html#encre3">Commandes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="../index.html#encre4">About</a>
+            </li>
+           
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+      <!-- BODY -->
+
+ <div class="container mt-5">
+    <main class="row d-flex justify-content-center">
+        
+           
+      <div class="col-lg-6">
+        <a href="../index.html#encre3"><img src="../image/Pouletdg.jpg"  class="img-responsive" alt="..." style="height: 90%;"></a> 
+      </div>
+
+      <div class="col-lg-6">
+                    
+        <h1 class="fs-1">POULET DG</h1>
+        
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i><br>
+        
+        
+        <span>10000FCA <strike>20000FCFA</strike></span><span class="bg-danger">promo</span>
+        <h5 style="color: gray;">vous enonomisez <strong style="color:black ;">10000FCA</strong></h5><br>
+        <h5 style="color: gray;"><i class="fa-solid fa-truck-fast"></i>Livraison gratuit sur 1h</h5>
+        <h5 style="color: gray;">Retour gratuit sur 30jours</h5>
+        <h5 style="color: gray;"> <i class="fa-solid fa-dollar-sign"></i>Paiement à la livraison</h5><br>
+        <h5 style="color: gray;">Quantité</h5>
+
+        
+          <label for="number"></label>
+          <input type="number" id="input"><span> TOTAL: <span class="fs-1 text-dark fw-bold prix">10000</span></span> FCFA
+          <!-- <button class="btn btn-primary">J'aime <span>0</span></button> -->
+        
+
+        <button type="button" class="btn btn-secondary but" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <span class=" payer">Payer Maintenant</span> 
+        </button>
+        
+        <!-- Modal -->
+        
+        
+      </div>
+      
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 10000;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Detail sur la carte</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+             <h6>VOUS ALLEZ PAYER AU TOTAL:<span class="prixfinal fw-bold fs-3"></span>FCFA</h6>
+            <form class="row">
+                    <div class="col-lg-6">
+                      <label for="nom" class="form-label"></label>
+                      <input type="text" class="form-control" id="nom" placeholder="Entrer votre nom">
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="nom" class="form-label"></label>
+                      <input type="text" class="form-control" id="nom" placeholder="Entrer votre Adresse">
+                    </div>
+                    <div class="col-lg-6">
+                      <label for="nom" class="form-label"></label>
+                      <input type="text" class="form-control" id="nom" placeholder="Entrer votre numero">
+                    </div>
+      
+                    <div class="col-lg-6 mt-4">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Mode paiement</option>
+                        <option value="1">Orange Money</option>
+                        <option value="2">Mtn Mobile Money</option>
+                        <option value="3">Express Union Money</option>
+                      </select>
+                    </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary w-100 disabled" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Payer</button>
+    
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="z-index: 50000;">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <h2 class="fs-3 fw-normal">MERCI D'AVOIR PASSER LA COMMANDE SUR CAMERRESTO</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      
+    </main>
+  </div>
+  
+                  
+
+
+  
+  <script src="../JS/bootstrap.bundle.js"></script>
+  <script src="../JS/jquery.js"></script>
+  <script src="../JS/all.min.js"></script>
+  <script src="../JS/poulet.js"></script>
+</body>
+</html>

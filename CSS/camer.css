@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: rgb(228, 221, 213);
+}
+.form{
+    background-color: rgb(192, 189, 186);
+    box-shadow: 4px 4px 4px rgb(179, 175, 175);
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+   
+    font-size:250%;
+    margin-left: 4%;
+}
+
+.nav-link,.nav-link:active,.nav-link:visited {
+    color: black
+}
+.nav-link,.nav-link:visited:hover {
+    color: white
+}
+
+.zero{
+    border-radius: 100%;
+    background-color: red;
+}
+.carousel-item{
+    height: 32rem;
+}
+.carousel-item img{
+    filter: brightness(30%);
+}
+
+.carousel-caption{
+    margin-bottom: 90px;
+}
+.carousel-caption h5{
+    font-size: 190%;
+}
+.carousel-caption p{
+    font-size: 390%;
+}
+.card1{
+    border: none;
+}
+.card1 img{
+    border-radius: 100%;
+    width: 500px;
+    height: 500px;
+}
+.p{
+    font-size: 120%;
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+}
+
+ ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:20px 20px ;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ul li a:hover{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.gray{
+   
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.toast-container{
+    margin-top: 300px;
+    margin-left: 600px;
+}
+
+.cardlorem1 ,.cardlorem2 ,.cardlorem3 ,.cardlorem4{
+    background-color: rgb(216, 62, 62);
+}
+
+@media screen and (max-width:850px) {
+    .navbar-toggler-icon{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    .card1{
+        display: none;
+    }
+    .aligneboutton{
+        width: 300px;
+        display: grid;
+        padding: 9px 0%;
+        margin-left: 12%;
+    }
+    .p{
+        font-size: 100%;
+        justify-content: center;
+    }
+    .fa-solid{
+        margin-top: 100%;
+    }
+    .navbar-brand{
+        font-size: 160%;
+    }
+
+    .navbar-toggler{
+        /* font-size: 90%; */
+        width: 15%;
+        height: 10%;
+    }
+    .carousel-indicators{
+        margin-bottom: 75%;
+    }
+    .carousel{
+        margin-bottom: 120px;
+    }
+    .carousel-control-prev,.carousel-control-next{
+        margin-bottom: 100%;
+    }
+   
+    .navbar-toggler{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    .poulet{
+        font-size: 90%;
+    }
+}
+

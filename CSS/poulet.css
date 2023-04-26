@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(228, 221, 213);
+}
+
+.navbar{
+    background-color: white;
+}
+/* .navbar-brand{ 
+    font-size:250%;
+    margin-left: 4%;
+}
+
+.nav-link,.nav-link:active,.nav-link:visited {
+    color: black
+}
+.nav-link,.nav-link:visited:hover {
+    color: white
+} */
+
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    /* padding:20px 20px ; */
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+ul li a:hover{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.gray{
+   
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.toast-container{
+    margin-top: 300px;
+    margin-left: 600px;
+}
+.card{
+    border: none;
+}
+.card-title{
+    font-size: 290%;
+}
+.card-text{
+    font-size: 200%;
+}
+.promo{
+    background-color: red;
+    color: white;
+    font-size: 55%;
+}
+.number{
+    width: 25%;
+    height: 40px;
+}
+
+@media screen and (max-width:850px) {
+  
+.poulet{
+        font-size: 25px;
+        margin-left: 25%;
+    }
+.prix{
+        font-size: 18px;
+        margin-left: 15%;
+    }
+.promo{
+    font-size: 10px;
+   }
+.dixmille{
+    font-size: 15px;
+    margin-left: 13%;
+   }
+.dixmilles{
+    font-size: 15px;
+    margin-left: 29%;
+   }
+.number{
+    width: 15;
+    height: 20px;
+
+   }
+.total{
+    font-size: 10px;
+  }
+.payer{
+   font-size: 11px;
+ 
+  }
+.but{
+    margin-left: 30%;
+  }
+}
